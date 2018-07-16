@@ -3,6 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="a2016fbe-b39e-498e-a795-79de03e47810" name="Default" comment="">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/py_blog_mongo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/models/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/models/post.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/py_app_blog.py" afterDir="false" />
@@ -175,8 +181,8 @@
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32914045" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.5011905" side_tool="true" visible="true" weight="0.32914045" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49880952" visible="true" weight="0.32914045" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32914045" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
