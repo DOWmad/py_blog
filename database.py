@@ -1,7 +1,11 @@
 import pymongo
 
 class Database(object):
+
+    #set mongodb connection
     uri = "mongodb://127.0.0.1:27017"
+
+    #initialise db variable
     DATABASE = None
 
 
@@ -12,12 +16,12 @@ class Database(object):
 
     @staticmethod
     def insert(collection, data):
-       Database.DATABASE[collection].insert(data)
+        Database.DATABASE[collection].insert(data)
 
     @staticmethod
-    def find(collection, data):
-        Database.DATABASE[collection].find(data)
+    def find(collection, query):
+        return Database.DATABASE[collection].find(query)
 
     @staticmethod
-    def find_one(collection, data):
-       Database.DATABASE[collection].find_one(data)
+    def find_one(collection, query):
+       return Database.DATABASE[collection].find_one(query)
